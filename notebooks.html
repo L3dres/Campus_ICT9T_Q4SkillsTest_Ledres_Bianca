@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Q4 Skillstest</title>
+
+<style>
+body{
+     background-image: url( https://static.vecteezy.com/system/resources/previews/021/686/124/large_2x/blue-background-high-resolution-wallpaper-free-free-photo.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+     font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align:center;
+}
+p{
+  text-align: center;
+}
+
+.book{
+    width:200px;
+    min-height:130px;
+    background:#e7f7ff;
+    border-radius:15px;
+    padding:15px;
+}
+
+.nbooks{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    padding:25px;
+ }
+.teach{
+    font-size:20px;
+}
+</style>
+
+</head>
+
+<body>
+<h1> Virtual Notebooks</h1>
+
+<p>Open your notebooks! Dont forget to submit..!</p>
+
+<div class="nbooks">
+    <div class="book" onclick="openote('English!')">
+        <h3>English☺︎</h3>
+        <p class="teach">Ms. Avila/ Ms Santos</p>
+    </div>
+
+     <div class="book" onclick="openote('Science!')">
+        <h3>Science☀︎</h3>
+        <p class="teach">Ms. Talavera/ Ms. David</p>
+    </div>
+
+    <div class="book" onclick="openote('LT!')">
+        <h3>LT✐</h3>
+        <p class="teach">Ms. Manodon</p>
+    </div>
+
+    <div class="book" onclick="openote('Music!)">
+        <h3>Music⚑</h3>
+        <p class="teach">Sir Martin</p>
+    </div>
+
+    <div class="book" onclick="openote('ICT!')">
+        <h3>ICT⭐︎</h3>
+        <p class="teach">Sir Renn/ Ms. Evangelista</p>
+    </div>
+
+    <div class="book" onclick="openote('Social Studies!')">
+        <h3>Social Studies←</h3>
+        <p class="teach">Sir Reynoso / Sir Reyes/ Sir Joma</p>
+    </div>
+</div>
+<script>
+    function openote(subj){
+    alert("Its " + subj + " Get ready to read 20 pages of...");
+}
+
+</script>
+
+</body>
+</html>
